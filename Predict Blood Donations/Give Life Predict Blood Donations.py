@@ -17,7 +17,6 @@ transfusion = pd.read_csv("transfusion.data")
 transfusion.head()
 
 # Print a concise summary of transfusion DataFrame
-# ... YOUR CODE FOR TASK 3 ...
 transfusion.info()
 
 # Rename target column as 'target' for brevity 
