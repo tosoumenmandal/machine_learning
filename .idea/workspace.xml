@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad5c132-d8f3-4777-890d-d07341973c20" name="Default Changelist" comment="Test Commited">
+    <list default="true" id="7ad5c132-d8f3-4777-890d-d07341973c20" name="Default Changelist" comment="Android App Market on Google Play">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -40,7 +40,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -88,7 +89,49 @@
       <option name="project" value="LOCAL" />
       <updated>1588133157680</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Find Movie Similarity from Plot Summaries Changes Commited">
+      <created>1588161737609</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588161737610</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Find Movie Similarity from Plot Summaries Changes Commited">
+      <created>1588161750729</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588161750729</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Predict Blood Donations Changes Commited">
+      <created>1588162158164</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588162158164</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Predict Blood Donations">
+      <created>1588162304816</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588162304816</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Find Movie Similarity from Plot Summaries">
+      <created>1588162639333</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588162639333</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Android App Market on Google Play">
+      <created>1588162903786</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588162903786</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,8 +147,16 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/TheaterStateMachine" />
+    </ignored-roots>
     <MESSAGE value="Test Commited" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Commited" />
+    <MESSAGE value="Find Movie Similarity from Plot Summaries Changes Commited" />
+    <MESSAGE value="Predict Blood Donations Changes Commited" />
+    <MESSAGE value="Predict Blood Donations" />
+    <MESSAGE value="Find Movie Similarity from Plot Summaries" />
+    <MESSAGE value="Android App Market on Google Play" />
+    <option name="LAST_COMMIT_MESSAGE" value="Android App Market on Google Play" />
   </component>
   <component name="WindowStateProjectService">
     <state x="351" y="0" key="#Test" timestamp="1588133110040">
@@ -132,9 +183,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588133460588" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1588133304100">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1588162472603">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1588133304100" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588162472603" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1588162653538">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1588162653538" />
   </component>
 </project>
