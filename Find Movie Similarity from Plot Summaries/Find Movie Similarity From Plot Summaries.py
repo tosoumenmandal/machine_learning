@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Apr 23 08:50:50 2020
-
-@author: Soumen
-"""
-# Import modules
 import numpy as np
 import pandas as pd
 import nltk
