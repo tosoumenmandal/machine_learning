@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad5c132-d8f3-4777-890d-d07341973c20" name="Default Changelist" comment="Android App Market on Google Play">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7ad5c132-d8f3-4777-890d-d07341973c20" name="Default Changelist" comment="Predicting Credit Card Approvals" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588162903786</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Predicting Credit Card Approvals">
+      <created>1588163051424</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588163051424</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,7 +160,8 @@
     <MESSAGE value="Predict Blood Donations" />
     <MESSAGE value="Find Movie Similarity from Plot Summaries" />
     <MESSAGE value="Android App Market on Google Play" />
-    <option name="LAST_COMMIT_MESSAGE" value="Android App Market on Google Play" />
+    <MESSAGE value="Predicting Credit Card Approvals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Predicting Credit Card Approvals" />
   </component>
   <component name="WindowStateProjectService">
     <state x="351" y="0" key="#Test" timestamp="1588133110040">
