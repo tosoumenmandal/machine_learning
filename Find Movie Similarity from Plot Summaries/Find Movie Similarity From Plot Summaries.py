@@ -130,6 +130,6 @@ fig.set_size_inches(108, 21)
 # Show the plotted dendrogram
 plt.show()
 
-# Answer the question 
+#Answer the question
 ans = "Gladiator"
 print(ans)
