@@ -7,14 +7,13 @@ from sklearn.metrics import roc_auc_score
 from tpot import TPOTClassifier
 from sklearn import linear_model
 
-# Print out the first 5 lines from the transfusion.data file
+# First 5 lines from the transfusion.data file
 #!head -n5 datasets/transfusion.data
 
 # Read in dataset
 transfusion = pd.read_csv("transfusion.data")
 
 # Print out the first rows of our dataset
-# ... YOUR CODE FOR TASK 2 ...
 transfusion.head()
 
 # Print a concise summary of transfusion DataFrame
@@ -28,11 +27,9 @@ transfusion.rename(
 )
 
 # Print out the first 2 rows
-# ... YOUR CODE FOR TASK 4 ...
 transfusion.head(2)
 
 # Print target incidence proportions, rounding output to 3 decimal places
-# ... YOUR CODE FOR TASK 5 ...
 transfusion.target.value_counts(normalize=True).round(3)
 
 # Split transfusion DataFrame into
@@ -47,7 +44,6 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 # Print out the first 2 rows of X_train
-# ... YOUR CODE FOR TASK 6 ...
 X_train.head(2)
 
 # Instantiate TPOTClassifier
@@ -69,11 +65,10 @@ print(f'\nAUC score: {tpot_auc_score:.4f}')
 # Print best pipeline steps
 print('\nBest pipeline steps:', end='\n')
 for idx, (name, transform) in enumerate(tpot.fitted_pipeline_.steps, start=1):
-    # Print idx and transform
-    print(f'{idx}. {transform}')
+# Print idx and transform
+print(f'{idx}. {transform}')
     
 # X_train's variance, rounding the output to 3 decimal places
-# ... YOUR CODE FOR TASK 8 ...
 X_train.var().round(3)
 
 # Copy X_train and X_test into X_train_normed and X_test_normed
@@ -90,9 +85,7 @@ for df_ in [X_train_normed, X_test_normed]:
     df_.drop(columns= col_to_normalize, inplace=True)
 
 # Check the variance for X_train_normed
-# ... YOUR CODE FOR TASK 9 ...
 X_train_normed.var().round(3)
-
 
 # Instantiate LogisticRegression
 logreg = linear_model.LogisticRegression(
@@ -106,8 +99,6 @@ logreg.fit(X_train_normed, y_train)
 # AUC score for tpot model
 logreg_auc_score = roc_auc_score(y_test, logreg.predict_proba(X_test_normed)[:, 1])
 print(f'\nAUC score: {logreg_auc_score:.4f}')
-
-# Importing itemgetter
 
 # Sort models based on their AUC score from highest to lowest
 sorted(
