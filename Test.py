@@ -5,4 +5,4 @@ from operator import itemgetter
 from sklearn.metrics import roc_auc_score
 from sklearn import linear_model
 
-print("Hello Github")
+print("Welcome to Github")

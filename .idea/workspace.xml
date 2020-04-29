@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad5c132-d8f3-4777-890d-d07341973c20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7ad5c132-d8f3-4777-890d-d07341973c20" name="Default Changelist" comment="Test Commited">
+      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +79,14 @@
       <option name="presentableId" value="Default" />
       <updated>1588132577922</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test Commited">
+      <created>1588133157680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588133157680</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +99,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test Commited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Commited" />
   </component>
   <component name="WindowStateProjectService">
     <state x="351" y="0" key="#Test" timestamp="1588133110040">
