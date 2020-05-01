@@ -1,33 +1,34 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import GridSearchCV
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix
-from sklearn.model_selection import GridSearchCV
+from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import MinMaxScaler
+
+def clear():
+    print("\n"*100)
 
 # Load dataset
 cc_apps = pd.read_csv("cc_approvals.data", header=None)
 
 # Inspect data
+print(cc_apps.shape)
+print(cc_apps.columns)
 print(cc_apps.head())
+print("\n")
 
 # Print summary statistics
 cc_apps_description = cc_apps.describe()
 print(cc_apps_description)
-
 print("\n")
 
 # Print DataFrame information
 cc_apps_info = cc_apps.info()
 print(cc_apps_info)
-
 print("\n")
-
-# Inspect missing values in the dataset
-print(cc_apps.tail(17))
 
 # Inspect missing values in the dataset
 print(cc_apps.tail(17))
@@ -35,17 +36,17 @@ print(cc_apps.tail(17))
 # Replace the '?'s with NaN
 cc_apps = cc_apps.replace(to_replace='?', value=np.NaN)
 
+# Count the number of NaNs in the dataset to verify
+print(cc_apps.isnull().sum())
+
 # Inspect the missing values again
 print(cc_apps.tail(17))
 
 # Impute the missing values with mean imputation
 cc_apps.fillna(cc_apps.mean(), inplace=True)
-
-# Count the number of NaNs in the dataset to verify
-print(cc_apps.isnull().sum())
+cc_apps.head()
 
 # Iterate over each column of cc_apps
-
 for col in cc_apps.columns:
     # Check if the column is of object type
     if cc_apps[col].dtypes == 'object':
@@ -64,14 +65,15 @@ for col in cc_apps.columns:
     if cc_apps[col].dtypes=='object':
     # Use LabelEncoder to do the numeric transformation
         
-        #print(cc_apps[col])
+        print(cc_apps[col])
         le.fit(cc_apps[col])
         cc_apps[col]= le.transform(cc_apps[col])
-print(cc_apps)  
+        print(cc_apps[col])
 
 # Drop the features 11 and 13 and convert the DataFrame to a NumPy array
-cc_apps = cc_apps.drop([11, 13], axis=1)
-cc_apps = cc_apps.values
+print(cc_apps.columns)
+print(cc_apps.drop([11, 13], axis=1).columns)
+cc_apps = cc_apps.drop([11, 13], axis=1).values
 
 # Segregate features and labels into separate variables
 X,y = cc_apps[:,:13] , cc_apps[:,13:]
